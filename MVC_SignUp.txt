@@ -1,0 +1,10 @@
+CREATE DATABASE MVC_Registration
+
+CREATE TABLE [dbo].[SignUp]
+(
+    [Id] INT IDENTITY(1,1) PRIMARY KEY,
+    [Username] NVARCHAR(50) NULL,
+    [Password] NVARCHAR(50) NULL
+)
+
+SELECT * FROM [SignUp];
